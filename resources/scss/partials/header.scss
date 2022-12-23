@@ -1,0 +1,46 @@
+header{
+    background-color: white;
+    .container{
+        .header-div{
+            height: 100px;
+            width: 100%;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            padding:  1em 0;
+        }
+        
+    }
+    
+    .logo{
+        height: 100%;
+        img{
+            max-height: 100%;
+        }
+    }
+    .nav{
+        ul{
+            display: flex;
+            gap: 1em; 
+            text-transform: uppercase;
+            font-size: .8rem;
+            font-weight: 600;
+            li{
+                a{
+                    display: inline-block;
+                    line-height: 100px;
+                    &:hover{
+                        color: #0282F9;;
+                        
+                    }
+                    &.active{
+                        color: #0282F9;;
+                        border-bottom: 3px solid #0282F9;;
+                        margin-bottom: .2rem;
+                    }
+                }
+            }
+        }
+    }
+}
